@@ -1,0 +1,89 @@
+body {
+  background-color: #eae7e7;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  background: #ffffff;
+  border-left: solid 1px #333;
+  border-right: solid 1px #333;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+}
+
+a {
+  position: absolute;
+  left: 250px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+  border-bottom: solid 2px black;
+}
+
+.article {
+  display: flex;
+  position: relative;
+  width: 85%;
+  height: 300px;
+  background-color: #e6e6e687
+  margin-bottom: 25px;
+}
+.articleTitle {
+  position: absolute;
+  top: 10px;
+  left: 260px;
+  font-size: 20;
+  font-weight: 700;
+}
+.authorName {
+  position: absolute;
+  left: 260px;
+  top: 50px;
+  font-size: 15px;
+
+}
+.articleDescription {
+  position: absolute;
+  left: 260px;
+  top: 100px;
+}
+.timePublished {
+  position: absolute;
+  bottom: 0px;
+  color: black;
+}
+#newsDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 160px;
+  background: #a9a9a9;
+  border-bottom: solid 1px black;
+}
+#header h1 {
+  margin-top: 0px;
+  font-size: 50px;
+  border-bottom: solid 1px black;
+}
